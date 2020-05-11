@@ -1,0 +1,68 @@
+body h1 {
+    text-align: center;
+    margin: 0 10%;
+}
+
+.container {
+    border: 1px solid #000000;
+    padding: 15px;
+    margin: 20px auto;
+}
+
+.color-container {
+    width: 100%;
+}
+
+.color-panel {
+    border: .5px dashed #000000;
+    width: 95%;
+    margin: 15px auto;
+    text-align: center;
+}
+
+.brilliantdoc-yellow {
+    background-color: #ffcf01;
+    color: #000000;
+}
+
+.white {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.black {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.off-black {
+    background-color: #3d3d3d;
+    color: #ffffff;
+}
+
+.grey {
+    background-color: #aaaaaa;
+    color: #000000;
+}
+
+/* Font Section */
+
+/* Font Styles Section */
+
+/* Logo Section */
+
+.logo-panel {
+    margin: 15px auto;
+    border: .5px dashed #000000;
+}
+
+.landscape {
+    max-height: 200px;
+    max-width: 456px;
+}
+
+.square {
+    background-color: #000000;
+    max-height: 360px;
+    max-width: 360px;
+}
