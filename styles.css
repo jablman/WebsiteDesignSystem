@@ -1,6 +1,9 @@
-body h1 {
-    text-align: center;
+body {
     margin: 0 10%;
+}
+
+#title {
+    text-align: center;
 }
 
 .container {
@@ -47,22 +50,85 @@ body h1 {
 
 /* Font Section */
 
+.font-panel {
+    border: .5px dashed #000000;
+    display: inline-block;
+    width: 28%;
+    height: auto;
+    margin: 1%;
+    padding-left: 1%;
+    padding-right: 1%
+}
+
+.font-label {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.open-sans {
+    font-family: 'Open Sans',sans-serif;
+}
+
+.montserrat {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.roboto-slab {
+    font-family: 'Roboto Slab', serif;
+}
+
+.roboto-condensed {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.old-standard-tt {
+    font-family: 'Old Standard TT', serif;
+}
+
+.frank-ruhl-libre {
+    font-family: 'Frank Ruhl Libre', serif;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.not-available {
+    color: #ff0000;
+}
 /* Font Styles Section */
+
+.text-panel h1 {
+    text-align: left;
+}
+
+.text-panel p {
+    font-weight: bold;
+}
 
 /* Logo Section */
 
 .logo-panel {
     margin: 15px auto;
     border: .5px dashed #000000;
+    overflow: hidden;
+    width: auto;
+    height: auto;
 }
 
 .landscape {
-    max-height: 200px;
+    max-height: auto;
     max-width: 456px;
+    display: block;
 }
 
 .square {
     background-color: #000000;
-    max-height: 360px;
+    max-height: auto;
     max-width: 360px;
+    display: block;
 }

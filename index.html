@@ -5,10 +5,16 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Website Style Guide</title>
         <link rel="stylesheet" href="./styles.css" type="text/css">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+        <<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,800;1,400&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@400;700&display=swap" rel="stylesheet">
     </head>
 
     <body>
-        <h1>BrilliantDoc Website Style Guide</h1>
+        <h1 id="title">BrilliantDoc Website Style Guide</h1>
 
         <section class="container" id="colors">
             <h2>Colors</h2>
@@ -50,69 +56,77 @@
                     <p class="italic open-sans">People say the damnedest things.</p>
                 </div>
                 <div class="font-panel">
-                    <p class="font-label monserrat">Monserrat</p>
-                    <!-- <p class="regular monserrat">People say the damnedest things.</p> -->
-                    <p class="bold monserrat">People say the damnedest things.</p>
-                    <!-- <p class="italic monserrat">People say the damnedest things.</p> -->
+                    <p class="font-label montserrat">Monserrat</p>
+                    <p class="regular montserrat">People say the damnedest things.</p>
+                    <p class="bold montserrat">People say the damnedest things.</p>
+                    <p class="italic montserrat">People say the damnedest things.</p>
                 </div>
                 <div class="font-panel">
                     <p class="font-label roboto-slab">Roboto Slab</p>
-                    <p class="regular roboto-slab"></p>
-                    <!-- <p class="bold roboto-slab">People say the damnedest things.</p> -->
-                    <!-- <p class="italic roboto-slab">People say the damnedest things.</p> -->
+                    <p class="regular roboto-slab">People say the damnedest things.</p>
+                    <p class="bold roboto-slab">People say the damnedest things.</p>
+                    <p class="not-available roboto-slab">No italic font available.</p>
                 </div>
                 <div class="font-panel">
                     <p class="font-label roboto-condensed">Roboto Condensed</p>
                     <p class="regular roboto-condensed">People say the damnedest things.</p>
-                    <!-- <p class="bold roboto-condensed">People say the damnedest things.</p> -->
+                    <p class="bold roboto-condensed">People say the damnedest things.</p>
                     <p class="italic roboto-condensed">People say the damnedest things.</p>
                 </div>
                 <div class="font-panel">
                     <p class="font-label old-standard-tt">Old Standard TT</p>
                     <p class="regular old-standard-tt">People say the damnedest things.</p>
-                    <!-- <p class="bold old-standard-tt">People say the damnedest things.</p> -->
+                    <p class="bold old-standard-tt">People say the damnedest things.</p>
                     <p class="italic old-standard-tt">People say the damnedest things.</p>
                 </div>
                 <div class="font-panel">
                     <p class="font-label frank-ruhl-libre">Frank Ruhl Libre</p>
                     <p class="regular frank-ruhl-libre">People say the damnedest things.</p>
-                    <!-- <p class="bold frank-ruhl-libre">People say the damnedest things.</p> -->
-                    <p class="italic frank-ruhl-libre">People say the damnedest things.</p>
-                </div>
-                <div class="font-panel">
-                    <p class="font-label roboto-slab">Roboto Slab</p>
-                    <p class="regular roboto-slab">People say the damnedest things.</p>
-                    <!-- <p class="bold roboto-slab">People say the damnedest things.</p> -->
-                    <!-- <p class="italic roboto-slab">People say the damnedest things.</p> -->
+                    <p class="bold frank-ruhl-libre">People say the damnedest things.</p>
+                    <p class="not-available frank-ruhl-libre">No italic font available.</p>
                 </div>
             </div>
         </section>
 
         <section class="container" id="fontStyles">
-            <h2>Font Styples</h2>
+            <h2>Primary Font Styles</h2>
             <div class="text-container">
                 <div class="text-panel">
                     <h1>H1: Main page heading</h1>
                     <ul>
-                        <li>Font-weight: </li>
-                        <li>Font-size: </li>
-                        <li>Font-family: </li>
+                        <li>Font-weight: 800 (bold)</li>
+                        <li>Font-size: 44px</li>
+                        <li>Font-family: Montserrat</li>
                     </ul>
                 </div>
                 <div class="text-panel">
-                    <h1>H2: Subheading heading</h1>
+                    <h2>H2: Subheading</h2>
                     <ul>
-                        <li>Font-weight: </li>
-                        <li>Font-size: </li>
-                        <li>Font-family: </li>
+                        <li>Font-weight: 400 (italic) </li>
+                        <li>Font-size: 38px</li>
+                        <li>Font-family: Old Standard TT</li>
                     </ul>
                 </div>
                 <div class="text-panel">
-                    <h1>P: Primary Text</h1>
+                    <h3>H3: 2nd-Subheading</h3>
                     <ul>
-                        <li>Font-weight: </li>
-                        <li>Font-size: </li>
-                        <li>Font-family: </li>
+                        <li>Font-weight: 400 (regular) </li>
+                        <li>Font-size: 25px</li>
+                        <li>Font-family: Roboto Condensed</li>
+                    </ul>
+                </div>
+                <div class="text-panel">
+                    <p>P: Primary Text</p>
+                    <ul>
+                        <li>Font-weight: 400 (regular) </li>
+                        <li>Font-size: 18px</li>
+                        <li>Font-family: Frank Ruhl Libre</li>
+                    </ul>
+                </div>
+                <div class="text-panel notes">
+                    <h3>Additional Notes:</h3>
+                    <ul>
+                        <li>Various fonts & weights used throughout.</li>
                     </ul>
                 </div>
             </div>
